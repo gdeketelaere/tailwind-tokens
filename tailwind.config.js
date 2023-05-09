@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./stories/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       borderRadius: {
@@ -22,6 +22,9 @@ module.exports = {
         26: "26px",
         28: "28px",
         "button-default": "14px 24px",
+        "button-icon": "14px 14px",
+        "button-compact": "8px 16px",
+        "button-compactIcon": "8px 8px",
       },
       colors: {
         electric: {
