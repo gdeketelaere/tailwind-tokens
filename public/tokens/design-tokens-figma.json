@@ -1,0 +1,2285 @@
+{
+    "Color": {
+      "palette": {
+        "electric": {
+          "50": {
+            "value": "#E8FFF1",
+            "type": "color"
+          },
+          "100": {
+            "value": "#CFFFE3",
+            "type": "color"
+          },
+          "200": {
+            "value": "#A8FFCC",
+            "type": "color"
+          },
+          "300": {
+            "value": "#78FAAE",
+            "type": "color"
+          },
+          "400": {
+            "value": "#72E3A1",
+            "type": "color"
+          },
+          "500": {
+            "value": "#59BC87",
+            "type": "color"
+          },
+          "600": {
+            "value": "#419468",
+            "type": "color"
+          },
+          "700": {
+            "value": "#31694B",
+            "type": "color"
+          },
+          "800": {
+            "value": "#2D5540",
+            "type": "color"
+          },
+          "900": {
+            "value": "#263E31",
+            "type": "color"
+          }
+        },
+        "emerald": {
+          "50": {
+            "value": "#EDF9F5",
+            "type": "color"
+          },
+          "100": {
+            "value": "#CFE8E0",
+            "type": "color"
+          },
+          "200": {
+            "value": "#9EC8BB",
+            "type": "color"
+          },
+          "300": {
+            "value": "#84B5A6",
+            "type": "color"
+          },
+          "400": {
+            "value": "#649586",
+            "type": "color"
+          },
+          "500": {
+            "value": "#4B7A6C",
+            "type": "color"
+          },
+          "600": {
+            "value": "#3A6558",
+            "type": "color"
+          },
+          "700": {
+            "value": "#1F5044",
+            "type": "color"
+          },
+          "800": {
+            "value": "#0E3A2F",
+            "type": "color"
+          },
+          "900": {
+            "value": "#00271D",
+            "type": "color"
+          }
+        },
+        "on-surface": {
+          "0": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "100": {
+            "value": "#D8D8D8",
+            "type": "color"
+          },
+          "200": {
+            "value": "#C4C6C7",
+            "type": "color"
+          },
+          "300": {
+            "value": "#9E9FA0",
+            "type": "color"
+          },
+          "500": {
+            "value": "#7C7D7E",
+            "type": "color"
+          },
+          "600": {
+            "value": "#5A5B5C",
+            "type": "color"
+          },
+          "700": {
+            "value": "#464748",
+            "type": "color"
+          },
+          "800": {
+            "value": "#303132",
+            "type": "color"
+          },
+          "900": {
+            "value": "#161718",
+            "type": "color"
+          }
+        }
+      },
+      "Brand": {
+        "Primary": {
+          "value": "{Color.palette.electric.600}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{Color.palette.electric.300}",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "{Color.palette.emerald.800}",
+          "type": "color"
+        },
+        "Quarternary": {
+          "value": "{Color.palette.electric.50}",
+          "type": "color"
+        }
+      },
+      "Brand hover": {
+        "Primary": {
+          "value": "{Color.palette.electric.500}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{Color.palette.electric.200}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "Primary": {
+          "value": "{Color.palette.on-surface.200}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{Color.palette.on-surface.100}",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "{Color.palette.on-surface.300}",
+          "type": "color"
+        }
+      },
+      "Transparent": {
+        "Primary": {
+          "value": "rgba(22,23,24,0.06)",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "rgba(26,27,28,0.12)",
+          "type": "color"
+        },
+        "Backdrop": {
+          "value": "rgba(228,228,228,0.8)",
+          "type": "color"
+        }
+      },
+      "Surface": {
+        "Primary": {
+          "value": "#F1F1F1",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "#E4E4E4",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "{Color.palette.on-surface.0}",
+          "type": "color"
+        },
+        "Quarternary": {
+          "value": "#303132",
+          "type": "color"
+        }
+      },
+      "Signal": {
+        "Alert": {
+          "value": "#E82B37",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "#EC6513",
+          "type": "color"
+        },
+        "Positive": {
+          "value": "#37D002",
+          "type": "color"
+        },
+        "Info": {
+          "value": "#2D71D7",
+          "type": "color"
+        }
+      },
+      "Typography": {
+        "Copy light bg": {
+          "value": "{Color.palette.on-surface.900}",
+          "type": "color"
+        },
+        "Copy dark bg": {
+          "value": "{Color.palette.on-surface.0}",
+          "type": "color"
+        },
+        "Disclaimer": {
+          "value": "{Color.palette.on-surface.0}",
+          "type": "color"
+        },
+        "Eyebrow": {
+          "value": "{Color.palette.on-surface.900}",
+          "type": "color"
+        },
+        "Label field": {
+          "value": "{Color.palette.on-surface.500}",
+          "type": "color"
+        },
+        "Caption": {
+          "value": "{Color.palette.on-surface.500}",
+          "type": "color"
+        },
+        "Helper text": {
+          "value": "{Color.palette.on-surface.500}",
+          "type": "color"
+        },
+        "Link": {
+          "Link default light BG": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Link default dark BG": {
+            "value": "{Color.Brand.Secondary}",
+            "type": "color"
+          },
+          "Link hover light BG": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Link hover dark BG": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Link disabled": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "Link Active": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          }
+        },
+        "Tag": {
+          "Tag color 1": {
+            "value": "{Color.palette.on-surface.500}",
+            "type": "color"
+          },
+          "Tag color 2": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Tag color 3": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "CTA": {
+          "CTA 1st light bg default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "CTA 1st light bg hover": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "CTA 1st light bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "CTA 1st light bg active": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "CTA 2nd light bg default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA 2nd light bg hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA 2nd light bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "CTA 2nd light bg active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA 3rd light bg default": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA 3rd light bg hover": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA 3rd light bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "CTA 3rd light bg active": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA Ghost light bg default": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA Ghost light bg hover": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA Ghost light bg disabled": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "CTA Ghost light bg active": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA 3rd dark bg default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA 3rd dark bg hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA 3rd dark bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "CTA 3rd dark bg active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg disabled": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "Navigation": {
+          "Navigation light bg default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Navigation light bg hover": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Navigation light bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "Navigation light bg active": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Navigation dark bg default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Navigation dark bg hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Navigation dark bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "Navigation dark bg active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "Dropdown": {
+          "Dropdown button default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Dropdown button opened": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Dropdown list": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          }
+        },
+        "Menus": {
+          "Main menu default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Main menu hover": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Main menu active": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Menu langue default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Menu langue hover": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Menu langue active": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Bottom menu default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Bottom menu Hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Bottom menu Active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Footer menu default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Footer menu hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Footer menu active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "Heading": {
+          "Heading 1": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Heading 2": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Heading 3": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Heading 4": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Heading 5": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Heading 6": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Heading bottom": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "Filter tag": {
+          "Filter tag default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Filter tag hover": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "Filter tag disabled": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "Filter tag selected": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          }
+        }
+      },
+      "Backgrounds": {
+        "CTA": {
+          "CTA 1st light bg default": {
+            "value": "{Color.Brand.Secondary}",
+            "type": "color"
+          },
+          "CTA 1st light bg hover": {
+            "value": "{Color.Brand hover.Secondary}",
+            "type": "color"
+          },
+          "CTA 1st light bg disabled": {
+            "value": "{Color.palette.on-surface.100}",
+            "type": "color"
+          },
+          "CTA 1st light bg active": {
+            "value": "{Color.Brand hover.Secondary}",
+            "type": "color"
+          },
+          "CTA 2nd light bg default": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA 2nd light bg hover": {
+            "value": "{Color.palette.on-surface.600}",
+            "type": "color"
+          },
+          "CTA 2nd light bg disabled": {
+            "value": "{Color.palette.on-surface.100}",
+            "type": "color"
+          },
+          "CTA 2nd light bg active": {
+            "value": "{Color.palette.on-surface.600}",
+            "type": "color"
+          },
+          "CTA 3rd light bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd light bg hover": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          },
+          "CTA 3rd light bg disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd light bg active": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          },
+          "CTA Ghost light bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA Ghost light bg hover": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          },
+          "CTA Ghost light bg disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA Ghost light bg active": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          },
+          "CTA 1st dark bg default": {
+            "value": "{Color.Brand.Secondary}",
+            "type": "color"
+          },
+          "CTA 1st dark bg hover": {
+            "value": "{Color.Brand hover.Secondary}",
+            "type": "color"
+          },
+          "CTA 1st dark bg disabled": {
+            "value": "{Color.palette.on-surface.100}",
+            "type": "color"
+          },
+          "CTA 1st dark bg active": {
+            "value": "{Color.Brand hover.Secondary}",
+            "type": "color"
+          },
+          "CTA 2nd dark bg default": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA 2nd dark bg hover": {
+            "value": "{Color.palette.on-surface.600}",
+            "type": "color"
+          },
+          "CTA 2nd dark bg disabled": {
+            "value": "{Color.palette.on-surface.100}",
+            "type": "color"
+          },
+          "CTA 2nd dark bg active": {
+            "value": "{Color.palette.on-surface.600}",
+            "type": "color"
+          },
+          "CTA 3rd dark bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd dark bg hover": {
+            "value": "rgba(255,255,255,0.06)",
+            "type": "color"
+          },
+          "CTA 3rd dark bg disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd dark bg active": {
+            "value": "rgba(255,255,255,0.06)",
+            "type": "color"
+          },
+          "CTA Ghost dark bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA Ghost dark bg hover": {
+            "value": "rgba(255,255,255,0.06)",
+            "type": "color"
+          },
+          "CTA Ghost dark bg disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA Ghost dark bg active": {
+            "value": "rgba(255,255,255,0.06)",
+            "type": "color"
+          }
+        },
+        "Radio": {
+          "Radio enabled unselected": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Radio enabled selected": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Radio disabled selected": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "Radio disabled unselected": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Radio error selected": {
+            "value": "{Color.Signal.Alert}",
+            "type": "color"
+          },
+          "Radio error unselected": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "Checkbox": {
+          "Checkbox enabled unchecked default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Checkbox enabled unchecked hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Checkbox enabled checked": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Checkbox disabled unchecked": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Checkbox disabled checked": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "Checkbox error checked": {
+            "value": "{Color.Signal.Alert}",
+            "type": "color"
+          },
+          "Checkbox error unchecked": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "Toggle": {
+          "Toggle default on": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Toggle default off": {
+            "value": "{Color.palette.on-surface.500}",
+            "type": "color"
+          },
+          "Toggle disabled on": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "Toggle disabled off": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          }
+        },
+        "Input": {
+          "Input default": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          },
+          "Input disabled": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          }
+        },
+        "Tag": {
+          "Tag color 1": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "Tag color 2": {
+            "value": "{Color.Brand.Tertiary}",
+            "type": "color"
+          },
+          "Tag color 3": {
+            "value": "{Color.palette.on-surface.500}",
+            "type": "color"
+          }
+        },
+        "Filter tag": {
+          "Filter tag default": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          },
+          "Filter tag hover": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          },
+          "Filter tag disabled": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          },
+          "Filter tag selected": {
+            "value": "{Color.Brand.Quarternary}",
+            "type": "color"
+          }
+        },
+        "Dropdown": {
+          "Dropdown button default": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          },
+          "Dropdown button opened": {
+            "value": "{Color.Transparent.Primary}",
+            "type": "color"
+          },
+          "Dropdown list": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "Badge": {
+          "Badge color 1": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Badge color 2": {
+            "value": "{Color.Brand.Secondary}",
+            "type": "color"
+          },
+          "Badge color 3": {
+            "value": "{Color.Brand.Tertiary}",
+            "type": "color"
+          }
+        }
+      },
+      "Border": {
+        "Border accordeon": {
+          "value": "{Color.Transparent.Secondary}",
+          "type": "color"
+        },
+        "Filter tag": {
+          "Filter tag default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "Filter tag Hover": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "Filter tag Selected": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "Filter tag Active": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          }
+        },
+        "Checkbox": {
+          "Checkbox enabled unchecked default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Checkbox enabled unchecked Hover": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Checkbox enabled Checked": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Checkbox disabled unchecked default": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "Checkbox disabled checked default": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "Checkbox enabled unchecked error": {
+            "value": "{Color.Signal.Alert}",
+            "type": "color"
+          },
+          "Checkbox enabled checked error": {
+            "value": "{Color.Signal.Alert}",
+            "type": "color"
+          }
+        },
+        "CTA": {
+          "CTA 1st light bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 1st light bg hover": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 1st light bg disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 1st light bg active": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 2nd light bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 2nd light bg hover": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 2nd light bg disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 2nd light bg active": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd light bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd light bg hover": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd light bg disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd light bg active": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA Ghost light bg default": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA Ghost light bg hover": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA Ghost light bg disabled": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "CTA Ghost light bg active": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA 1st dark bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 1st dark bg hover": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 1st dark bg disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 1st dark bg active": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 2nd dark bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 2nd dark bg hover": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 2nd dark bg disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 2nd dark bg active": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd dark bg default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd dark bg hover": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd dark bg disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA 3rd dark bg active": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
+          "CTA Ghost dark bg default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "Input": {
+          "Input bottom default": {
+            "value": "{Color.palette.on-surface.500}",
+            "type": "color"
+          },
+          "Input bottom hover": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Input bottom active": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Input bottom typing": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Input bottom filled": {
+            "value": "{Color.palette.on-surface.500}",
+            "type": "color"
+          },
+          "Input bottom disabled": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "Input bottom error": {
+            "value": "{Color.Signal.Alert}",
+            "type": "color"
+          }
+        }
+      },
+      "Foreground": {
+        "CTA": {
+          "CTA 1st light bg default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "CTA 1st light bg hover": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "CTA 1st light bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "CTA 1st light bg active": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "CTA 2nd light bg default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA 2nd light bg hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA 2nd light bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "CTA 2nd light bg active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA 3rd light bg default": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA 3rd light bg hover": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA 3rd light bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "CTA 3rd light bg active": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA Ghost light bg default": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA Ghost light bg hover": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA Ghost light bg disabled": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "CTA Ghost light bg active": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "CTA 3rd dark bg default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA 3rd dark bg hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA 3rd dark bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "CTA 3rd dark bg active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg disabled": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "CTA Ghost dark bg active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "Navigation": {
+          "Navigation light bg default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Navigation light bg hover": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Navigation light bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "Navigation light bg active": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Navigation dark bg default": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Navigation dark bg hover": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          },
+          "Navigation dark bg disabled": {
+            "value": "{Color.Disabled.Tertiary}",
+            "type": "color"
+          },
+          "Navigation dark bg active": {
+            "value": "{Color.palette.on-surface.0}",
+            "type": "color"
+          }
+        },
+        "Dropdown": {
+          "Dropdown button default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Dropdown button opened": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Dropdown list": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          }
+        },
+        "Radio": {
+          "Radio Selected enabled": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Radio Selected disabled": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          },
+          "Radio Selected error": {
+            "value": "{Color.Signal.Alert}",
+            "type": "color"
+          }
+        },
+        "Filter tag": {
+          "Filter tag default": {
+            "value": "{Color.palette.on-surface.900}",
+            "type": "color"
+          },
+          "Filter tag hover": {
+            "value": "{Color.palette.on-surface.700}",
+            "type": "color"
+          },
+          "Filter tag selected": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Filter tag active": {
+            "value": "{Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Filter tag disabled": {
+            "value": "{Color.Disabled.Primary}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "drop shadow XS": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "8",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.15)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "drop shadow SM": {
+      "value": {
+        "x": "0",
+        "y": "2",
+        "blur": "25",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.15)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "drop shadow MD": {
+      "value": {
+        "x": "0",
+        "y": "5",
+        "blur": "25",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.15)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "drop shadow LG": {
+      "value": {
+        "x": "0",
+        "y": "8",
+        "blur": "32",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.15)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "drop shadow XL": {
+      "value": {
+        "x": "0",
+        "y": "24",
+        "blur": "64",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.15)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "fontFamilies": {
+      "Skoda-head": {
+        "value": "SKODA Next",
+        "type": "fontFamilies"
+      },
+      "Skoda-text": {
+        "value": "SKODA Next",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "value": "AUTO",
+        "type": "lineHeights"
+      },
+      "1": {
+        "value": "16",
+        "type": "lineHeights"
+      },
+      "2": {
+        "value": "20",
+        "type": "lineHeights"
+      },
+      "3": {
+        "value": "24",
+        "type": "lineHeights"
+      },
+      "4": {
+        "value": "28",
+        "type": "lineHeights"
+      },
+      "5": {
+        "value": "32",
+        "type": "lineHeights"
+      },
+      "6": {
+        "value": "36",
+        "type": "lineHeights"
+      },
+      "7": {
+        "value": "38",
+        "type": "lineHeights"
+      },
+      "8": {
+        "value": "40",
+        "type": "lineHeights"
+      },
+      "9": {
+        "value": "44",
+        "type": "lineHeights"
+      },
+      "10": {
+        "value": "48",
+        "type": "lineHeights"
+      },
+      "11": {
+        "value": "52",
+        "type": "lineHeights"
+      },
+      "12": {
+        "value": "68",
+        "type": "lineHeights"
+      },
+      "13": {
+        "value": "88",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "Skoda-head-bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "Skoda-text-regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "Skoda-text-bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "11",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "18",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "23",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "27",
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": "28",
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": "30",
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "12": {
+        "value": "33",
+        "type": "fontSizes"
+      },
+      "13": {
+        "value": "36",
+        "type": "fontSizes"
+      },
+      "14": {
+        "value": "38",
+        "type": "fontSizes"
+      },
+      "15": {
+        "value": "40",
+        "type": "fontSizes"
+      },
+      "16": {
+        "value": "44",
+        "type": "fontSizes"
+      },
+      "17": {
+        "value": "72",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0",
+        "type": "letterSpacing"
+      },
+      "1": {
+        "value": "0.75",
+        "type": "letterSpacing"
+      },
+      "2": {
+        "value": "1",
+        "type": "letterSpacing"
+      },
+      "0,5": {
+        "value": "0,02",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "XL : 1200 et plus": {
+      "Display 1": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.13}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 1": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.11}",
+          "fontSize": "{fontSize.16}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 2": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.9}",
+          "fontSize": "{fontSize.13}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 3": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.6}",
+          "fontSize": "{fontSize.10}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 4": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.9}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Subheadline": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.4}",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Copy big": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "{letterSpacing.1}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Copy": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.2}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Copy small": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Input": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Main menu": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Sub menu": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Language choice normal": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Language choice active": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.underline}"
+        },
+        "type": "typography"
+      },
+      "Heading bottom": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Bottom menu": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Footer Menu": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "CTA": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-bold}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.1}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "CTA compact": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-bold}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.1}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Navigation": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.1}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Navigation compact": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.1}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Label field": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Helper text": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Caption": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Disclaimer": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Card link": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "LG : 992 - 1199": {
+      "Heading 1": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.12}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 2": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.11}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 3": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.9}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 4": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.7}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 5": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 6": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Main menu": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.vw-head-2}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.6}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Copy Big": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.1}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Card link": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading bottom": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.2}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Bottom menu": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-text}",
+          "fontWeight": "{fontWeights.Skoda-text-regular}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "SM : 991 et moins": {
+      "Heading 1": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.10}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 2": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.8}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 3": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 4": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 5": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading 6": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Heading bottom": {
+        "value": {
+          "fontFamily": "{fontFamilies.Skoda-head}",
+          "fontWeight": "{fontWeights.Skoda-head-bold}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.2}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      }
+    },
+    "paragraphIndent": {
+      "0": {
+        "value": "0px",
+        "type": "dimension"
+      }
+    },
+    "Border-radius": {
+      "CTA": {
+        "value": "50px",
+        "type": "borderRadius"
+      },
+      "Badge": {
+        "value": "9px",
+        "type": "borderRadius"
+      }
+    },
+    "Border": {
+      "CTA": {
+        "CTA Ghost light bg default": {
+          "value": {
+            "color": "{Color.Border.CTA.CTA Ghost light bg default}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "CTA Ghost light bg hover": {
+          "value": {
+            "color": "{Color.Border.CTA.CTA Ghost light bg hover}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "CTA Ghost light bg disabled": {
+          "value": {
+            "color": "{Color.Border.CTA.CTA Ghost light bg disabled}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "CTA Ghost light bg active": {
+          "value": {
+            "color": "{Color.Border.CTA.CTA Ghost light bg active}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        }
+      },
+      "Input": {
+        "Input bottom default": {
+          "value": {
+            "color": "{Color.Border.Input.Input bottom default}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "Input bottom hover": {
+          "value": {
+            "color": "{Color.Border.Input.Input bottom hover}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "Input bottom active": {
+          "value": {
+            "color": "{Color.Border.Input.Input bottom active}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "Input bottom typing": {
+          "value": {
+            "color": "{Color.Border.Input.Input bottom typing}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "Input bottom filled": {
+          "value": {
+            "color": "{Color.Border.Input.Input bottom filled}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "Input bottom disabled": {
+          "value": {
+            "color": "{Color.Border.Input.Input bottom disabled}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "Input bottom error": {
+          "value": {
+            "color": "{Color.Border.Input.Input bottom error}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        }
+      }
+    },
+    "padding": {
+      "2": {
+        "value": "2px",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "4px",
+        "type": "spacing"
+      },
+      "6": {
+        "value": "6px",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "10": {
+        "value": "10px",
+        "type": "spacing"
+      },
+      "12": {
+        "value": "12px",
+        "type": "spacing"
+      },
+      "14": {
+        "value": "14px",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "18": {
+        "value": "18px",
+        "type": "spacing"
+      },
+      "20": {
+        "value": "20px",
+        "type": "spacing"
+      },
+      "22": {
+        "value": "22px",
+        "type": "spacing"
+      },
+      "24": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "26": {
+        "value": "26px",
+        "type": "spacing"
+      },
+      "28": {
+        "value": "28px",
+        "type": "spacing"
+      },
+      "button": {
+        "default": {
+          "value": "{padding.14} {padding.24}",
+          "type": "spacing"
+        },
+        "icon": {
+          "value": "{padding.14} {padding.14}",
+          "type": "spacing"
+        },
+        "compact": {
+          "value": "{padding.8} {padding.16}",
+          "type": "spacing"
+        },
+        "compactIcon": {
+          "value": "{padding.8} {padding.8}",
+          "type": "spacing"
+        }
+      },
+      "chips": {
+        "default": {
+          "value": "{padding.6} {padding.16}",
+          "type": "spacing"
+        },
+        "hover": {
+          "value": "{padding.6} {padding.16}",
+          "type": "spacing"
+        },
+        "disabled": {
+          "value": "{padding.6} {padding.16}",
+          "type": "spacing"
+        },
+        "selected": {
+          "value": "{padding.6} {padding.16}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
