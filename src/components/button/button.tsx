@@ -1,9 +1,10 @@
+import classNames from "classnames";
 import { ReactNode } from "react";
 
 type ButtonProps = {
   size?: "default" | "compact";
   variant?: "primary" | "secondary" | "tertiary" | "ghost";
-  background?: "light" | "dark";
+  onSurface?: "light" | "dark";
   state?: "disabled" | "active" | "hover" | "default";
   hasIcon?: boolean;
   children?: ReactNode;
@@ -14,13 +15,21 @@ export const Button = ({
   children,
   size = "default",
   variant = "primary",
-  background = "light",
+  onSurface = "light",
   state = "default",
   hasIcon = false,
   ...props
 }: ButtonProps) => {
   return (
-    <button className="button" {...props}>
+    <button
+      className={classNames(
+        "button",
+        `button-${variant}`,
+        `button-size-${size}`,
+        onSurface !== "light" && `button-${variant}-${onSurface}`
+      )}
+      {...props}
+    >
       {children}
     </button>
   );

@@ -4,7 +4,36 @@
 
 .App {
   text-align: center;
+  @apply font-sans;
 }
 .button {
-  @apply bg-electric-300 p-button-default rounded-button-default;
+  @apply transition-all font-bold font-sans;
+}
+
+.button-primary {
+  @apply bg-electric-300 p-button rounded-button border-0 hover:bg-electric-200 text-on-surface-900 text-button;
+}
+
+.button-secondary {
+  @apply bg-on-surface-700 p-button rounded-button text-on-surface-0 hover:bg-on-surface-600 text-button;
+}
+
+.button-tertiary {
+  @apply hover:bg-transparent-primary p-button rounded-button text-on-surface-700 text-button;
+}
+
+.button-ghost {
+  @apply hover:bg-transparent-primary p-button rounded-button text-on-surface-700 border-2 border-on-surface-700 text-button;
+}
+
+.button-size-compact {
+  @apply p-button-compact text-button-compact;
+}
+
+.button-primary-dark {
+  @apply text-on-surface-0;
+}
+
+.button-tertiary-dark {
+  @apply text-on-surface-0;
 }

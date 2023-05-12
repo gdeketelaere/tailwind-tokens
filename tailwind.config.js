@@ -3,8 +3,15 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./stories/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: "Skoda Next",
+      },
       borderRadius: {
-        "button-default": "50px",
+        button: "50px",
+      },
+      fontSize: {
+        button: "16px",
+        "button-compact": "14px",
       },
       padding: {
         2: "2px",
@@ -21,7 +28,7 @@ module.exports = {
         24: "24px",
         26: "26px",
         28: "28px",
-        "button-default": "14px 24px",
+        button: "14px 24px",
         "button-icon": "14px 14px",
         "button-compact": "8px 16px",
         "button-compactIcon": "8px 8px",
@@ -61,6 +68,11 @@ module.exports = {
           700: "#464748",
           800: "#303132",
           900: "#161718",
+        },
+        transparent: {
+          primary: "rgba(22,23,24,0.06)",
+          secondary: "rgba(26,27,28,0.12)",
+          backdrop: "rgba(228,228,228,0.8)",
         },
       },
     },
